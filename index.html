@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baboon Plastik Avı</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Baboon Plastik Avı 🐒</h1>
+  <p>Plastik şişeleri patlat, katı şampuanları kurtar!</p>
+
+  <div id="game-container"></div>
+
+  <div class="hud">
+    <span>Puan: <span id="score">0</span></span> |
+    <span>Can: <span id="lives">3</span></span> |
+    <span>Süre: <span id="time">60</span> sn</span>
+  </div>
+
+  <!-- Oyun bitince gösterilen katman -->
+  <div id="overlay" style="display:none;">
+    <h2 id="result-title"></h2>
+    <p id="result-msg"></p>
+    <button id="restart-btn">Yeniden Oyna</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
