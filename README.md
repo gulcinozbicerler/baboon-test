@@ -1,2 +1,2 @@
-# baboon-test
+yayına alındı # baboon-test
 baboon-oyun
